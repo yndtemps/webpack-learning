@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= (htmlWebpackPlugin.options.config.title) %></title>
+    <script src="./js/base.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script>
+</head>
+<body>
+    <img src="<%= require('./test.jpg') %>" alt="" style="height: 500px;">
+    <button id="btn">点我加载js</button>
+</body>
+</html>
